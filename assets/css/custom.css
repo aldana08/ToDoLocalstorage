@@ -1,0 +1,72 @@
+body {
+  background: url('http://faviods.com/aldy/todo/assets/img/todo_fondo.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white !important;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+h1, h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase !important;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+#contenido {
+    margin-top: 40px;
+    background-color:rgba(0,0,0,0.5);
+    margin: 30px;
+}
+
+.borrar-tarea,
+.borrar-tarea:hover {
+    float: right;
+    cursor: pointer;
+    background-image: url('http://faviods.com/aldy/todo/assets/img/eliminar.png');
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    padding-left: 8px;
+    padding-top: 3px;
+}
+
+.btn-primary{
+    background-color: pink !important;
+    color: black !important;
+    border: 1px solid #ea899a !important;
+}
+
+li {
+    overflow: hidden;
+    background-color:rgba(234,137,154,0.9);
+    margin-bottom: 3px;
+    list-style: none;
+    padding: 10px;
+}
+
+.form-control{
+    height: 50px !important;
+}
+
+label {
+    text-transform: uppercase !important;
+}
+
+
+
+
+
+
+
+
+
